@@ -2,6 +2,18 @@
 
 Este é um programa Python para controlar um TurtleBot3 usando o ROS 2 (Robot Operating System). O programa permite controlar o robô usando o teclado, ajustando a velocidade linear e angular em tempo real.
 
+## Movimentação do Robô
+
+O controle será feito pelas teclas de seta:
+
+Seta para cima: Robo vai para frente
+Seta para baixo: Robo vai para trás
+Seta para direita: Robo gira em torno do seu eixo para a direita
+Seta para esquerda: Robo gira em torno do seu eixo para a esquerda
+
+"Espaço": Mata o nó de comunicação com o ROS
+Tecla "S": Parada de emergência do Robô
+
 ## Pré-requisitos
 
 Certifique-se de ter o ROS 2 instalado no seu sistema. Além disso, é necessário preparar a área de trabalho para trabalhar com o ROS 2.
